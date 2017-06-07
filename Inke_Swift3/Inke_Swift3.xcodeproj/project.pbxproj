@@ -50,7 +50,7 @@
 		A4FEA0651EE69A7600C0490A /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		A4FEA0741EE6A3DC00C0490A /* DMHeartFlyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMHeartFlyView.h; sourceTree = "<group>"; };
 		A4FEA0751EE6A3DC00C0490A /* DMHeartFlyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMHeartFlyView.m; sourceTree = "<group>"; };
-		A4FEA0771EE6AC5500C0490A /* emmitParticles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = emmitParticles.swift; path = ../Model/emmitParticles.swift; sourceTree = "<group>"; };
+		A4FEA0771EE6AC5500C0490A /* emmitParticles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = emmitParticles.swift; sourceTree = "<group>"; };
 		CF33745B8F40DA4714AF9896 /* Pods-Inke_Swift3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inke_Swift3.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Inke_Swift3/Pods-Inke_Swift3.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -151,8 +151,7 @@
 				A4FEA0741EE6A3DC00C0490A /* DMHeartFlyView.h */,
 				A4FEA0751EE6A3DC00C0490A /* DMHeartFlyView.m */,
 			);
-			name = HeartFlyView;
-			path = ../HeartFlyView;
+			path = HeartFlyView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
