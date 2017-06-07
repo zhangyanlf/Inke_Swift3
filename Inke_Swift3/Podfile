@@ -8,4 +8,6 @@ target 'Inke_Swift3' do
   # Pods for Inke_Swift3
 pod 'Just'
 pod 'Kingfisher'
+pod 'MJRefresh'
+
 end

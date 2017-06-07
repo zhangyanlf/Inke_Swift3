@@ -1,15 +1,18 @@
 PODS:
   - Just (0.6.0)
   - Kingfisher (3.10.1)
+  - MJRefresh (3.1.12)
 
 DEPENDENCIES:
   - Just
   - Kingfisher
+  - MJRefresh
 
 SPEC CHECKSUMS:
   Just: 0b60164cc2b516fbddd8948ef7841c70896f1e4d
   Kingfisher: 33a1b82140fcb14a9fc13f78dfde2a03ff8de8cb
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
 
-PODFILE CHECKSUM: b3b29320502c7f27490841a1974bcb5141c3cfd1
+PODFILE CHECKSUM: 973620700149fd9c8bed2050eb2c5e574f1d4c25
 
 COCOAPODS: 1.2.1
