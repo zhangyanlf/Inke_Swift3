@@ -37,6 +37,8 @@
 
        //烟花特效
         let layerFw = CAEmitterLayer()
+        
         view.layer.addSublayer(layerFw)
+        
         emmitParticles(from: sender.center, emitter: layerFw, in: view)
         
