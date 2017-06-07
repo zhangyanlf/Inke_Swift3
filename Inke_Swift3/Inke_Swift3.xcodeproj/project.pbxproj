@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4FEA02A1EE657DF00C0490A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FEA0291EE657DF00C0490A /* AppDelegate.swift */; };
+		A4FEA02C1EE657DF00C0490A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FEA02B1EE657DF00C0490A /* ViewController.swift */; };
+		A4FEA02F1EE657DF00C0490A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4FEA02D1EE657DF00C0490A /* Main.storyboard */; };
+		A4FEA0311EE657DF00C0490A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4FEA0301EE657DF00C0490A /* Assets.xcassets */; };
+		A4FEA0341EE657DF00C0490A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4FEA0321EE657DF00C0490A /* LaunchScreen.storyboard */; };
+		A4FEA0411EE659FA00C0490A /* ZylCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FEA03C1EE659FA00C0490A /* ZylCreator.swift */; };
+		A4FEA0421EE659FA00C0490A /* ZylExtra.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FEA03D1EE659FA00C0490A /* ZylExtra.swift */; };
+		A4FEA0431EE659FA00C0490A /* ZylLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FEA03E1EE659FA00C0490A /* ZylLabel.swift */; };
+		A4FEA0441EE659FA00C0490A /* ZylLive.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FEA03F1EE659FA00C0490A /* ZylLive.swift */; };
+		A4FEA0451EE659FA00C0490A /* ZylliveStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FEA0401EE659FA00C0490A /* ZylliveStream.swift */; };
+		A4FEA0471EE65B2F00C0490A /* ZylCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FEA0461EE65B2F00C0490A /* ZylCell.swift */; };
+		A4FEA0491EE66B5D00C0490A /* ZylLiveTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FEA0481EE66B5D00C0490A /* ZylLiveTableViewController.swift */; };
+		A4FEA04D1EE67A9900C0490A /* ZylTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FEA04C1EE67A9900C0490A /* ZylTableViewCell.swift */; };
+		A4FEA0641EE69A6B00C0490A /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A4FEA0631EE69A6B00C0490A /* libbz2.tbd */; };
+		A4FEA0661EE69A7600C0490A /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A4FEA0651EE69A7600C0490A /* libz.tbd */; };
+		A4FEA0761EE6A3DC00C0490A /* DMHeartFlyView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FEA0751EE6A3DC00C0490A /* DMHeartFlyView.m */; };
+		A4FEA0781EE6AC5500C0490A /* emmitParticles.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FEA0771EE6AC5500C0490A /* emmitParticles.swift */; };
+		F0B41209AFB223038A7E0DA0 /* Pods_Inke_Swift3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FD8950F069F12CAED427945 /* Pods_Inke_Swift3.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		39FF793D6A64257FB1EC03BA /* Pods-Inke_Swift3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inke_Swift3.release.xcconfig"; path = "Pods/Target Support Files/Pods-Inke_Swift3/Pods-Inke_Swift3.release.xcconfig"; sourceTree = "<group>"; };
+		7FD8950F069F12CAED427945 /* Pods_Inke_Swift3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Inke_Swift3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4FEA0261EE657DF00C0490A /* Inke_Swift3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Inke_Swift3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4FEA0291EE657DF00C0490A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A4FEA02B1EE657DF00C0490A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A4FEA02E1EE657DF00C0490A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4FEA0301EE657DF00C0490A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4FEA0331EE657DF00C0490A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A4FEA0351EE657DF00C0490A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4FEA03C1EE659FA00C0490A /* ZylCreator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZylCreator.swift; sourceTree = "<group>"; };
+		A4FEA03D1EE659FA00C0490A /* ZylExtra.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZylExtra.swift; sourceTree = "<group>"; };
+		A4FEA03E1EE659FA00C0490A /* ZylLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZylLabel.swift; sourceTree = "<group>"; };
+		A4FEA03F1EE659FA00C0490A /* ZylLive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZylLive.swift; sourceTree = "<group>"; };
+		A4FEA0401EE659FA00C0490A /* ZylliveStream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZylliveStream.swift; sourceTree = "<group>"; };
+		A4FEA0461EE65B2F00C0490A /* ZylCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZylCell.swift; sourceTree = "<group>"; };
+		A4FEA0481EE66B5D00C0490A /* ZylLiveTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZylLiveTableViewController.swift; sourceTree = "<group>"; };
+		A4FEA04C1EE67A9900C0490A /* ZylTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZylTableViewCell.swift; sourceTree = "<group>"; };
+		A4FEA0621EE697A300C0490A /* Inke_Swift3-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Inke_Swift3-Bridging-Header.h"; sourceTree = "<group>"; };
+		A4FEA0631EE69A6B00C0490A /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		A4FEA0651EE69A7600C0490A /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		A4FEA0741EE6A3DC00C0490A /* DMHeartFlyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMHeartFlyView.h; sourceTree = "<group>"; };
+		A4FEA0751EE6A3DC00C0490A /* DMHeartFlyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMHeartFlyView.m; sourceTree = "<group>"; };
+		A4FEA0771EE6AC5500C0490A /* emmitParticles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = emmitParticles.swift; path = ../Model/emmitParticles.swift; sourceTree = "<group>"; };
+		CF33745B8F40DA4714AF9896 /* Pods-Inke_Swift3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inke_Swift3.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Inke_Swift3/Pods-Inke_Swift3.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4FEA0231EE657DF00C0490A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4FEA0661EE69A7600C0490A /* libz.tbd in Frameworks */,
+				A4FEA0641EE69A6B00C0490A /* libbz2.tbd in Frameworks */,
+				F0B41209AFB223038A7E0DA0 /* Pods_Inke_Swift3.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39DB13802A16062AE47C78ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4FEA0651EE69A7600C0490A /* libz.tbd */,
+				A4FEA0631EE69A6B00C0490A /* libbz2.tbd */,
+				7FD8950F069F12CAED427945 /* Pods_Inke_Swift3.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		846E508594978A26445123FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF33745B8F40DA4714AF9896 /* Pods-Inke_Swift3.debug.xcconfig */,
+				39FF793D6A64257FB1EC03BA /* Pods-Inke_Swift3.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A404591C1EE78D400060CE94 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				A4FEA0731EE6A3DC00C0490A /* HeartFlyView */,
+				A4FEA0771EE6AC5500C0490A /* emmitParticles.swift */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		A4FEA01D1EE657DF00C0490A = {
+			isa = PBXGroup;
+			children = (
+				A4FEA0281EE657DF00C0490A /* Inke_Swift3 */,
+				A4FEA0271EE657DF00C0490A /* Products */,
+				846E508594978A26445123FF /* Pods */,
+				39DB13802A16062AE47C78ED /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A4FEA0271EE657DF00C0490A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4FEA0261EE657DF00C0490A /* Inke_Swift3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4FEA0281EE657DF00C0490A /* Inke_Swift3 */ = {
+			isa = PBXGroup;
+			children = (
+				A404591C1EE78D400060CE94 /* Lib */,
+				A4FEA03B1EE6593900C0490A /* Model */,
+				A4FEA0291EE657DF00C0490A /* AppDelegate.swift */,
+				A4FEA02B1EE657DF00C0490A /* ViewController.swift */,
+				A4FEA0481EE66B5D00C0490A /* ZylLiveTableViewController.swift */,
+				A4FEA04C1EE67A9900C0490A /* ZylTableViewCell.swift */,
+				A4FEA02D1EE657DF00C0490A /* Main.storyboard */,
+				A4FEA0301EE657DF00C0490A /* Assets.xcassets */,
+				A4FEA0321EE657DF00C0490A /* LaunchScreen.storyboard */,
+				A4FEA0351EE657DF00C0490A /* Info.plist */,
+				A4FEA0621EE697A300C0490A /* Inke_Swift3-Bridging-Header.h */,
+			);
+			path = Inke_Swift3;
+			sourceTree = "<group>";
+		};
+		A4FEA03B1EE6593900C0490A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A4FEA03C1EE659FA00C0490A /* ZylCreator.swift */,
+				A4FEA03D1EE659FA00C0490A /* ZylExtra.swift */,
+				A4FEA03E1EE659FA00C0490A /* ZylLabel.swift */,
+				A4FEA03F1EE659FA00C0490A /* ZylLive.swift */,
+				A4FEA0401EE659FA00C0490A /* ZylliveStream.swift */,
+				A4FEA0461EE65B2F00C0490A /* ZylCell.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A4FEA0731EE6A3DC00C0490A /* HeartFlyView */ = {
+			isa = PBXGroup;
+			children = (
+				A4FEA0741EE6A3DC00C0490A /* DMHeartFlyView.h */,
+				A4FEA0751EE6A3DC00C0490A /* DMHeartFlyView.m */,
+			);
+			name = HeartFlyView;
+			path = ../HeartFlyView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4FEA0251EE657DF00C0490A /* Inke_Swift3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4FEA0381EE657DF00C0490A /* Build configuration list for PBXNativeTarget "Inke_Swift3" */;
+			buildPhases = (
+				EFCF5D9CA717D2CC6C60E2A6 /* [CP] Check Pods Manifest.lock */,
+				A4FEA0221EE657DF00C0490A /* Sources */,
+				A4FEA0231EE657DF00C0490A /* Frameworks */,
+				A4FEA0241EE657DF00C0490A /* Resources */,
+				A62BA3A6F94897ACA2B08CE2 /* [CP] Embed Pods Frameworks */,
+				353EE2251872C6A17A73EA07 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Inke_Swift3;
+			productName = Inke_Swift3;
+			productReference = A4FEA0261EE657DF00C0490A /* Inke_Swift3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4FEA01E1EE657DF00C0490A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = zhangyanlf;
+				TargetAttributes = {
+					A4FEA0251EE657DF00C0490A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8GR4Z3QJ2L;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A4FEA0211EE657DF00C0490A /* Build configuration list for PBXProject "Inke_Swift3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4FEA01D1EE657DF00C0490A;
+			productRefGroup = A4FEA0271EE657DF00C0490A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4FEA0251EE657DF00C0490A /* Inke_Swift3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4FEA0241EE657DF00C0490A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4FEA0341EE657DF00C0490A /* LaunchScreen.storyboard in Resources */,
+				A4FEA0311EE657DF00C0490A /* Assets.xcassets in Resources */,
+				A4FEA02F1EE657DF00C0490A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		353EE2251872C6A17A73EA07 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Inke_Swift3/Pods-Inke_Swift3-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A62BA3A6F94897ACA2B08CE2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Inke_Swift3/Pods-Inke_Swift3-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFCF5D9CA717D2CC6C60E2A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4FEA0221EE657DF00C0490A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4FEA0491EE66B5D00C0490A /* ZylLiveTableViewController.swift in Sources */,
+				A4FEA0421EE659FA00C0490A /* ZylExtra.swift in Sources */,
+				A4FEA0441EE659FA00C0490A /* ZylLive.swift in Sources */,
+				A4FEA04D1EE67A9900C0490A /* ZylTableViewCell.swift in Sources */,
+				A4FEA02C1EE657DF00C0490A /* ViewController.swift in Sources */,
+				A4FEA0411EE659FA00C0490A /* ZylCreator.swift in Sources */,
+				A4FEA0781EE6AC5500C0490A /* emmitParticles.swift in Sources */,
+				A4FEA02A1EE657DF00C0490A /* AppDelegate.swift in Sources */,
+				A4FEA0761EE6A3DC00C0490A /* DMHeartFlyView.m in Sources */,
+				A4FEA0451EE659FA00C0490A /* ZylliveStream.swift in Sources */,
+				A4FEA0431EE659FA00C0490A /* ZylLabel.swift in Sources */,
+				A4FEA0471EE65B2F00C0490A /* ZylCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A4FEA02D1EE657DF00C0490A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4FEA02E1EE657DF00C0490A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A4FEA0321EE657DF00C0490A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4FEA0331EE657DF00C0490A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4FEA0361EE657DF00C0490A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4FEA0371EE657DF00C0490A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4FEA0391EE657DF00C0490A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF33745B8F40DA4714AF9896 /* Pods-Inke_Swift3.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 8GR4Z3QJ2L;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Inke_Swift3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhyl.Inke-Swift3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Inke_Swift3/Inke_Swift3-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A4FEA03A1EE657DF00C0490A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39FF793D6A64257FB1EC03BA /* Pods-Inke_Swift3.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 8GR4Z3QJ2L;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Inke_Swift3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhyl.Inke-Swift3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Inke_Swift3/Inke_Swift3-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4FEA0211EE657DF00C0490A /* Build configuration list for PBXProject "Inke_Swift3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4FEA0361EE657DF00C0490A /* Debug */,
+				A4FEA0371EE657DF00C0490A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4FEA0381EE657DF00C0490A /* Build configuration list for PBXNativeTarget "Inke_Swift3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4FEA0391EE657DF00C0490A /* Debug */,
+				A4FEA03A1EE657DF00C0490A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4FEA01E1EE657DF00C0490A /* Project object */;
+}
